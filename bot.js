@@ -1125,47 +1125,37 @@ client.on("message", message => {
 };     
 });
 
-client.on('message', message => {
-if (message.content === prefix + 'help2') {
-        let embed = new Discord.RichEmbed()
-.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
-.setColor('RANDOM')
-.setDescription('**
-╔[❖════════════❖]╗
-                    اوامر عامة
-╚[❖════════════❖]╝
-❖ #roll <number> ➾ قرعة
-❖ #member ➾ معلومات الاعضاء
-❖ #av ➾ صورة حسابك
-❖ #ser-av ➾ صورة السيرفر
-❖ #uptime ➾ مدة تشغيل البوت
-❖ #id ➾ اي دي
-❖ #inv ➾ رابط السيرفر
-❖ #own ➾ مسؤول البوت
-❖ #top inv ➾ اكثر شخص بالدعوات
-❖ #ping ➾ عرض سرعه اتصال البوت
-❖ #server ➾ معلومات السيرفر
-**')
-message.author.sendEmbed(embed);
- 
-}
-});
+   client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content  === prefix + "help2") {
+          const embed = new Discord.RichEmbed()
+  
 
-client.on('message', message => {
-if (message.content === prefix + 'help3') {
-        let embed = new Discord.RichEmbed()
-.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
-.setColor('RANDOM')
-.setDescription('**
- **
-╔[❖════════════❖]╗
-                    تحت الصيانه
-╚[❖════════════❖]╝
+   .setColor('RANDOM')
+  .setTimestamp()
 
-**')
-message.author.sendEmbed(embed);
- 
-}
+  .addField("⦁`A╔[❖════════════❖]╗
+ .addField("      اوامر عامة
+ .addField("  ╚[❖════════════❖]╝💬`⦁",' ‎ ')
+  .addField("❖ #roll <number> ➾ قرعة ⦁",' ‎ ')
+   .addField("❖ #member ➾ معلومات الاعضاء ⦁",' ‎ ')
+     .addField("❖ #av ➾ صورة حسابك ⦁",' ‎ ')
+	   .addField("❖ #ser-av ➾ صورة السيرفر ⦁",' ‎ ')
+	 	   .addField("❖ #uptime ➾ مدة تشغيل البوت ⦁",' ‎ ')
+		   	   .addField("❖ #id ➾ اي دي ⦁",' ‎ ')
+		   	   .addField("❖ #inv ➾ رابط السيرفر ⦁",' ‎ ')
+.addField("❖ #own ➾ مسؤول البوت⦁",' ‎ ')
+.addField("❖ #top inv ➾ اكثر شخص بالدعوات ⦁",' ‎ ')
+.addField("❖ ❖ #ping ➾ عرض سرعه اتصال البوت ⦁",' ‎ ')
+.addField("❖ ❖ #server ➾ معلومات عن السيرفر ⦁",' ‎ ')
+
+ .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
 });
 
 
