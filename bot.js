@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const prefix = "#";
 const devs = ['380804037668241410' , '224002740647493632' , '431150885549113344' , ''];
 const adminprefix = "#";
-/////wwwwwwwwwwwww
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -1239,37 +1239,45 @@ client.on("message", message => {
 
   client.on('message', message => {
 if (message.content === prefix + 'help-eris') {
-        let embed = new Discord.RichEmbed()
-.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
-.setColor('RANDOM')
-.setDescription('
- **
-╔[❖════════════❖]╗
-                    تحت الصيانه
-╚[❖════════════❖]╝
+          const embed = new Discord.RichEmbed()
+  
 
-**')
-message.author.sendEmbed(embed);
- 
-}
+   .setColor('RANDOM')
+  .setTimestamp()
+
+  .addField("╔[❖════════════❖]╗",' ‎ ')
+ .addField("      تحت الصيانه     ",' ‎ ')
+ .addField("  ╚[❖════════════❖]╝💬`⦁",' ‎ ')
+
+ .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
 });
 
 
   client.on('message', message => {
 if (message.content === prefix + 'help-io') {
-        let embed = new Discord.RichEmbed()
-.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
-.setColor('RANDOM')
-.setDescription('
- **
-╔[❖════════════❖]╗
-                    تحت الصيانه
-╚[❖════════════❖]╝
+          const embed = new Discord.RichEmbed()
+  
 
-**')
-message.author.sendEmbed(embed);
- 
-}
+   .setColor('RANDOM')
+  .setTimestamp()
+
+  .addField("╔[❖════════════❖]╗",' ‎ ')
+ .addField("      تحت الصيانه     ",' ‎ ')
+ .addField("  ╚[❖════════════❖]╝💬`⦁",' ‎ ')
+
+ .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
 });
 
 
@@ -1456,19 +1464,23 @@ message.author.sendEmbed(embed);
 
   client.on('message', message => {
 if (message.content === prefix + 'help3') {
-        let embed = new Discord.RichEmbed()
-.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
-.setColor('RANDOM')
-.setDescription('
- **
-╔[❖════════════❖]╗
-                    تحت الصيانه
-╚[❖════════════❖]╝
+          const embed = new Discord.RichEmbed()
+  
 
-**')
-message.author.sendEmbed(embed);
- 
-}
+   .setColor('RANDOM')
+  .setTimestamp()
+
+  .addField("╔[❖════════════❖]╗",' ‎ ')
+ .addField("      تحت الصيانه     ",' ‎ ')
+ .addField("  ╚[❖════════════❖]╝💬`⦁",' ‎ ')
+
+ .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
 });
 
 
