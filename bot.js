@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const prefix = "#";
 const devs = ['380804037668241410' , '224002740647493632' , '431150885549113344' , ''];
 const adminprefix = "#";
-
+/////wwwwwwwwwwwww
 client.on('ready', () => {
     console.log('I am ready!');
 });
