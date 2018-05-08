@@ -352,15 +352,13 @@ https://hastebin.com/etugawomeh.coffeescript
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("â¦پ`All types of codes in D.JPEI Server ًں’¬`â¦پ",' â€ژ ')
-  .addField("**#help-js-general-1  â‍؛      â¦پ ظƒظˆط¯ ط§ظ„ط¨ظ†ظ‚**â¦پ",' â€ژ ')
-   .addField("**#help-js-general-2  â‍؛      â¦پ ظƒظˆط¯ ط§ظ„ظ‚ط±ط¹ط©** â¦پ",' â€ژ ')
-     .addField("**#help-js-general-3  â‍؛      â¦پ ظƒظˆط¯ ط§ظ„ط§ظپط§طھط§ط±** â¦پ",' â€ژ ')
-	   .addField("**#help-js-general-4  â‍؛      â¦پ ظƒظˆط¯ ظ…ط¹ظ„ظˆظ…ط§طھ ط§ظ„ط³ظٹط±ظپط±** â¦پ",' â€ژ ')
-	 	   .addField("**#help-js-general-5  â‍؛      â¦پ ظƒظˆط¯ ط§ظ„ظ…ط¹ظ„ظˆظ…ط§طھ ط§ظ„ط´ط®طµظٹط©** â¦پ",' â€ژ ')
-		   
+  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+  .addField("**#help-js-general-1  ➺      ⦁ كود البنق **⦁",' ‎ ')
+   .addField("**#help-js-general-2  ➺      ⦁ كود القرعة ** ⦁",' ‎ ')
+     .addField("**#help-js-general-3  ➺      ⦁ كود معلومات السيرفر ** ⦁",' ‎ ')
+	   .addField("**#help-js-general-4  ➺      ⦁ كود المعلومات الشخصية** ⦁",' ‎ ')
+	 
  .setFooter('Discord.JPEI')
-
 
    message.channel.send({embed});
 
@@ -372,10 +370,11 @@ https://hastebin.com/etugawomeh.coffeescript
   
   
   
+  
                   client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-general-1") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -383,7 +382,7 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ط§ظ„ط¨ظ†ظ‚**
+ ❖ **كود البنق**
  https://hastebin.com/udehosayej.coffeescript
 `);
 
@@ -396,7 +395,7 @@ https://hastebin.com/etugawomeh.coffeescript
                         client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-general-2") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -404,7 +403,7 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ط§ظ„ظ‚ط±ط¹ط©**
+ ❖ **كود القرعة**
  https://hastebin.com/qunobubuji.js
 `);
 
@@ -418,7 +417,7 @@ https://hastebin.com/etugawomeh.coffeescript
                     client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-general-3") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -426,7 +425,7 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ط§ظ„ط§ظپط§طھط§ط±**
+ ❖ **كود الافاتار**
  https://hastebin.com/wopigecazo.js
 `);
 
@@ -440,7 +439,7 @@ https://hastebin.com/etugawomeh.coffeescript
                       client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-general-4") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -448,7 +447,7 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ظ…ط¹ظ„ظˆظ…ط§طھ ط§ظ„ط³ظٹط±ظپط±**
+ ❖ **كود معلومات السيرفر**
  https://hastebin.com/xajaregari.js
 `);
 
@@ -463,7 +462,7 @@ https://hastebin.com/etugawomeh.coffeescript
                     client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-general-5") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -471,12 +470,14 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ط§ظ„ظ…ط¹ظ„ظˆظ…ط§طھ ط§ظ„ط´ط®طµظٹط©**
+ ❖ **كود المعلومات الشخصية**
  https://hastebin.com/vitodewesa.js
 `);
 
     }
 });
+
+
 
 
   
@@ -493,11 +494,12 @@ https://hastebin.com/etugawomeh.coffeescript
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("â¦پ`All types of codes in D.JPEI Server ًں’¬`â¦پ",' â€ژ ')
-  .addField("**#help-js-welcome-1  â‍؛      â¦پ ظƒظˆط¯ طھط±ط­ظٹط¨ ظ…ط¹ ط°ظƒط± ط±ظ‚ظ… ط§ظ„ط¹ط¶ظˆ** â¦پ",' â€ژ ')
-   .addField("**#help-js-welcome-2  â‍؛      â¦پ ظƒظˆط¯ ط§ظ„طھط±ط­ظٹط¨ ظ…ط¹ طµظˆط±ط©** â¦پ",' â€ژ ')
-     .addField("**#help-js-welcome-3  â‍؛      â¦پ ظƒظˆط¯ ظ…ط؛ط§ط¯ط±ط© ط§ظ„ط¹ط¶ظˆ** â¦پ",' â€ژ ')
+  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+  .addField("**#help-js-welcome-1  ➺      ⦁ كود ترحيب مع ذكر رقم العضو **⦁",' ‎ ')
+   .addField("**#help-js-welcome-2  ➺      ⦁ كود الترحيب مع صورة ** ⦁",' ‎ ')
+     .addField("**#help-js-welcome-3  ➺      ⦁ كود مغادرة العضو ** ⦁",' ‎ ')
 
+	 
 		   
  .setFooter('Discord.JPEI')
 
@@ -510,13 +512,10 @@ https://hastebin.com/etugawomeh.coffeescript
   
   
   
-  
-  
-  
                       client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-welcome-1") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -524,7 +523,7 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ طھط±ط­ظٹط¨ ظ…ط¹ ط°ظƒط± ط±ظ‚ظ… ط§ظ„ط¹ط¶ظˆ**
+ ❖ **كود ترحيب مع ذكر رقم العضو**
  https://hastebin.com/zapuyexive.js
 `);
 
@@ -537,7 +536,7 @@ https://hastebin.com/etugawomeh.coffeescript
                         client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-welcome-2") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -545,7 +544,7 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ط§ظ„طھط±ط­ظٹط¨ ظ…ط¹ طµظˆط±ط©**
+ ❖ **كود الترحيب مع صورة**
  https://hastebin.com/tujehubuqo.php
 `);
 
@@ -558,7 +557,7 @@ https://hastebin.com/etugawomeh.coffeescript
                       client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-welcome-3") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -566,12 +565,14 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ظ…ط؛ط§ط¯ط±ط© ط§ظ„ط¹ط¶ظˆ**
+ ❖ **كود مغادرة العضو**
  https://hastebin.com/gufimedaca.js
 `);
 
     }
 });
+  
+  
   
   
   
@@ -585,10 +586,9 @@ https://hastebin.com/etugawomeh.coffeescript
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("â¦پ`All types of codes in D.JPEI Server ًں’¬`â¦پ",' â€ژ ')
-  .addField("**#help-js-help-1  â‍؛      â¦پ ظƒظˆط¯ ظ‡ظ„ط¨ ظ…ط¹ ط§ظ…ط¨ط¯ ظٹط±ط³ظ„ ط¨ظ†ظپط³ ط§ظ„ط´ط§طھ** â¦پ",' â€ژ ')
-   .addField("**#help-js-help-2  â‍؛      â¦پ ظƒظˆط¯ ظ‡ظ„ط¨ ظ…ط²ط®ط±ظپ ط¨ط¯ظˆظ† ط§ظ…ط¨ط¯ ظˆظٹط±ط³ظ„ ط¹ط§ظ„ط®ط§طµ** â¦پ",' â€ژ ')
-
+  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+  .addField("**#help-js-help-1  ➺      ⦁ كود هلب مع امبد يرسل بنفس الشات **⦁",' ‎ ')
+   .addField("**#help-js-help-2  ➺      ⦁ كود هلب مزخرف بدون امبد ويرسل عالخاص ** ⦁",' ‎ ')
 		   
  .setFooter('Discord.JPEI')
 
@@ -601,11 +601,10 @@ https://hastebin.com/etugawomeh.coffeescript
   
   
   
-  
                         client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-help-1") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -613,7 +612,7 @@ https://hastebin.com/etugawomeh.coffeescript
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ظ‡ظ„ط¨ ظ…ط¹ ط§ظ…ط¨ط¯ ظٹط±ط³ظ„ ط¨ظ†ظپط³ ط§ظ„ط´ط§طھ**
+ ❖ **كود هلب مع امبد يرسل بنفس الشات**
 https://hastebin.com/cikeyoguqa.cs
 `);
 
@@ -625,7 +624,7 @@ https://hastebin.com/cikeyoguqa.cs
                           client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-help-2") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -633,7 +632,7 @@ https://hastebin.com/cikeyoguqa.cs
 
  message.author.sendMessage(`
  
- â‌– **ظƒظˆط¯ ظ‡ظ„ط¨ ظ…ط²ط®ط±ظپ ط¨ط¯ظˆظ† ط§ظ…ط¨ط¯ ظˆظٹط±ط³ظ„ ط¹ط§ظ„ط®ط§طµ**
+ ❖ **كود هلب مزخرف بدون امبد ويرسل عالخاص**
 https://hastebin.com/emawayudib.bash
 `);
 
@@ -655,12 +654,11 @@ https://hastebin.com/emawayudib.bash
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("â¦پ`All types of codes in D.JPEI Server ًں’¬`â¦پ",' â€ژ ')
-  .addField("**#help-js-bc-1  â‍؛      â¦پ ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ظƒظ„ + ظ…ط·ظˆط±** â¦پ",' â€ژ ')
-   .addField("**#help-js-bc-2  â‍؛      â¦پ ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ظƒظ„ + ط؛ظٹط± ظ…ط·ظˆط±** â¦پ",' â€ژ ')
-     .addField("**#help-js-bc-3  â‍؛      â¦پ ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ط£ظˆظ†ظ„ط§ظٹظ† + ظ…ط¹ ط§ظ„ظ…ظ†ط´ظ† + ط؛ظٹط± ظ…ط·ظˆط±** â¦پ",' â€ژ ')
-	   .addField("**#help-js-bc-4  â‍؛      â¦پ ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ظƒظ„ + ظ…ط¹ ط§ظ„ظ…ظ†ط´ظ† + ط؛ظٹط± ظ…ط·ظˆط±** â¦پ",' â€ژ ')
-
+  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+  .addField("**#help-js-bc-1  ➺      ⦁ برودكاست + للكل + مطور **⦁",' ‎ ')
+  .addField("**#help-js-bc-2  ➺      ⦁ برودكاست + للكل + غير مطور ** ⦁",' ‎ ')
+  .addField("**#help-js-bc-3  ➺      ⦁ برودكاست + للأونلاين + مع منشن + غير مطور **⦁",' ‎ ')
+  .addField("**#help-js-bc-4  ➺      ⦁ برودكاست + للكل + مع منشن + غير مطور ** ⦁",' ‎ ')	   
 		   
  .setFooter('Discord.JPEI')
 
@@ -674,10 +672,15 @@ https://hastebin.com/emawayudib.bash
   
   
   
+  
+  
+  
+  
+  
                               client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-bc-1") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -685,7 +688,7 @@ https://hastebin.com/emawayudib.bash
 
  message.author.sendMessage(`
  
- â‌– **ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ظƒظ„ + ظ…ط·ظˆط±**
+ ❖ **برودكاست + للكل + مطور**
  https://hastebin.com/bipanureqa.js
 `);
 
@@ -697,7 +700,7 @@ https://hastebin.com/emawayudib.bash
                             client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-bc-2") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -705,7 +708,7 @@ https://hastebin.com/emawayudib.bash
 
  message.author.sendMessage(`
  
- â‌– **ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ظƒظ„ + ط؛ظٹط± ظ…ط·ظˆط±**
+ ❖ **برودكاست + للكل + غير مطور**
  https://hastebin.com/kuvoruzowe.cs
 `);
 
@@ -718,7 +721,7 @@ https://hastebin.com/emawayudib.bash
                             client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-bc-3") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -726,7 +729,7 @@ https://hastebin.com/emawayudib.bash
 
  message.author.sendMessage(`
  
- â‌– **ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ط£ظˆظ†ظ„ط§ظٹظ† + ظ…ط¹ ط§ظ„ظ…ظ†ط´ظ† + ط؛ظٹط± ظ…ط·ظˆط±**
+ ❖ ** برودكاست + للأونلاين + مع منشن + غير مطور**
  https://hastebin.com/zujuvupali.php
 `);
 
@@ -739,7 +742,7 @@ https://hastebin.com/emawayudib.bash
                               client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help-js-bc-4") {
-		 message.channel.send('**ظ„ظ‚ط¯ طھظ… ط§ط±ط³ط§ظ„ ط§ظ„ظƒظˆط¯ ظپظٹ ط§ظ„ط®ط§طµ :ok_hand: **');
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
 		 
@@ -747,7 +750,7 @@ https://hastebin.com/emawayudib.bash
 
  message.author.sendMessage(`
  
- â‌– **ط¨ط±ظˆط¯ظƒط§ط³طھ + ظ„ظ„ظƒظ„ + ظ…ط¹ ط§ظ„ظ…ظ†ط´ظ† + ط؛ظٹط± ظ…ط·ظˆط±**
+ ❖ **برودكاست + للكل + مع منشن + غير مطور**
  https://hastebin.com/zojokunayo.php
 `);
 
@@ -774,62 +777,6 @@ https://hastebin.com/emawayudib.bash
   
   
   
-     client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content  === prefix + "help-py") {
-
-    
-         
-message.reply(`
-â‌– **` + "`All types of codes in python ًں’¬`" + `**
-
-â‌§  **طھط­طھ ط§ظ„طµظٹط§ظ†ط©**
-
-`);
-
-
-    }
-});
-
-
-
-
-   client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content  === prefix + "help-eris") {
-
-    
-         
-message.reply(`
-â‌– **` + "`All types of codes in Eris ًں’¬`" + `**
-
-â‌§  **طھط­طھ ط§ظ„طµظٹط§ظ†ط©**
-
-`);
-
-
-    }
-});
-
-
-
-   client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content  === prefix + "help-io") {
-
-    
-         
-message.reply(`
-â‌– **` + "`All types of codes in io ًں’¬`" + `**
-
-â‌§  **طھط­طھ ط§ظ„طµظٹط§ظ†ط©**
-
-`);
-
-
-    }
-});
-
 client.on('message',message =>{
     if(message.content ==  "#top inv"){
 message.guild.fetchInvites().then(i =>{
@@ -1159,7 +1106,77 @@ client.on("message", message => {
 });
 
 
-  
+  client.on('message', message => {
+if (message.content === prefix + 'help-eris') {
+        let embed = new Discord.RichEmbed()
+.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
+.setColor('RANDOM')
+.setDescription('**
+ **
+╔[❖════════════❖]╗
+                    تحت الصيانه
+╚[❖════════════❖]╝
+
+**')
+message.author.sendEmbed(embed);
+ 
+}
+});
+
+
+  client.on('message', message => {
+if (message.content === prefix + 'help-io') {
+        let embed = new Discord.RichEmbed()
+.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
+.setColor('RANDOM')
+.setDescription('**
+ **
+╔[❖════════════❖]╗
+                    تحت الصيانه
+╚[❖════════════❖]╝
+
+**')
+message.author.sendEmbed(embed);
+ 
+}
+});
+
+
+  client.on('message', message => {
+if (message.content === prefix + 'help-py') {
+        let embed = new Discord.RichEmbed()
+.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
+.setColor('RANDOM')
+.setDescription('**
+ **
+╔[❖════════════❖]╗
+                    تحت الصيانه
+╚[❖════════════❖]╝
+
+**')
+message.author.sendEmbed(embed);
+ 
+}
+});
+
+
+  client.on('message', message => {
+if (message.content === prefix + 'help3') {
+        let embed = new Discord.RichEmbed()
+.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
+.setColor('RANDOM')
+.setDescription('**
+ **
+╔[❖════════════❖]╗
+                    تحت الصيانه
+╚[❖════════════❖]╝
+
+**')
+message.author.sendEmbed(embed);
+ 
+}
+});
+
 
 
 
