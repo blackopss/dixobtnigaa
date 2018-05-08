@@ -1242,7 +1242,7 @@ if (message.content === prefix + 'help-eris') {
         let embed = new Discord.RichEmbed()
 .setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
 .setColor('RANDOM')
-.setDescription('**
+.setDescription('
  **
 ╔[❖════════════❖]╗
                     تحت الصيانه
@@ -1260,7 +1260,7 @@ if (message.content === prefix + 'help-io') {
         let embed = new Discord.RichEmbed()
 .setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
 .setColor('RANDOM')
-.setDescription('**
+.setDescription('
  **
 ╔[❖════════════❖]╗
                     تحت الصيانه
@@ -1459,7 +1459,7 @@ if (message.content === prefix + 'help3') {
         let embed = new Discord.RichEmbed()
 .setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
 .setColor('RANDOM')
-.setDescription('**
+.setDescription('
  **
 ╔[❖════════════❖]╗
                     تحت الصيانه
