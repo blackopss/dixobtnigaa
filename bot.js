@@ -243,12 +243,18 @@ https://hastebin.com/uxogubebif.coffeescript
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
-  .addField("**#help-js-admin-1  ➺      ⦁ كود الباند**⦁",' ‎ ')
-   .addField("**#help-js-admin-2  ➺      ⦁ كود الكيك** ⦁",' ‎ ')
-     .addField("**#help-js-admin-3  ➺      ⦁ كود مسح الشات مع عدد وشبيه بالبروبوت** ⦁",' ‎ ')
-	   .addField("**#help-js-admin-4  ➺      ⦁ كود فتح وتقفيل الشات** ⦁",' ‎ ')
-	 
+ .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+ .addField("**#help-js-admin-1  ➺      ⦁ كود الباند**⦁",' ‎ ')
+ .addField("**#help-js-admin-2  ➺      ⦁ كود الكيك** ⦁",' ‎ ')
+ .addField("**#help-js-admin-3  ➺      ⦁ كود مسح الشات مع عدد وشبيه بالبروبوت** ⦁",' ‎ ')
+ .addField("**#help-js-admin-4  ➺      ⦁ كود فتح وتقفيل الشات** ⦁",' ‎ ')
+ .addField("**#help-js-admin-5  ➺      ⦁  كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه** ⦁",' ‎ ')
+ .addField("**#help-js-admin-6  ➺      ⦁  كود لانشاء شات كتابي** ⦁",' ‎ ')	  
+ .addField("**#help-js-admin-7  ➺      ⦁  كود لانشاء روم صوتي** ⦁",' ‎ ')
+ .addField("**#help-js-admin-8  ➺      ⦁  invite : كود دعوه البوت مثال ** ⦁",' ‎ ')	  
+	  
+	  
+	  
  .setFooter('Discord.JPEI')
 
 
@@ -342,6 +348,84 @@ https://hastebin.com/etugawomeh.coffeescript
 });  
 
 
+                  client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-js-admin-5") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ ** كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه**
+ https://pastebin.com/Xe5kzVUw
+`);
+
+    }
+});
+  
+         client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-js-admin-6") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ ** كود لانشاء شات كتابي**
+ https://pastebin.com/ChtbaGu2
+`);
+
+    }
+});
+  
+           client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-js-admin-7") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ ** كود لانشاء روم صوتي**
+ https://pastebin.com/Y2SWEE6N
+`);
+
+    }
+});
+
+
+
+          client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-js-admin-8") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **invite : كود دعوه البوت مثال **
+https://pastebin.com/hP9VQpFR
+`);
+
+    }
+});  
+
+
+
+
+
 
          client.on('message', message => {
     if (message.author.bot) return;
@@ -352,12 +436,16 @@ https://hastebin.com/etugawomeh.coffeescript
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
-  .addField("**#help-js-general-1  ➺      ⦁ كود البنق **⦁",' ‎ ')
-   .addField("**#help-js-general-2  ➺      ⦁ كود القرعة ** ⦁",' ‎ ')
-     .addField("**#help-js-general-3  ➺      ⦁ كود معلومات السيرفر ** ⦁",' ‎ ')
-	   .addField("**#help-js-general-4  ➺      ⦁ كود المعلومات الشخصية** ⦁",' ‎ ')
-	 
+ .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+ .addField("**#help-js-general-1  ➺      ⦁ كود البنق **⦁",' ‎ ')
+ .addField("**#help-js-general-2  ➺      ⦁ كود القرعة ** ⦁",' ‎ ')
+ .addField("**#help-js-general-3  ➺      ⦁ كود الافتار  ** ⦁",' ‎ ')	  
+ .addField("**#help-js-general-4  ➺      ⦁ كود معلومات السيرفر ** ⦁",' ‎ ')
+ .addField("**#help-js-general-5  ➺      ⦁ كود المعلومات الشخصية** ⦁",' ‎ ')
+ .addField("**#help-js-general-6  ➺      ⦁ كود كت تويت** ⦁",' ‎ ')	  
+ .addField("**#help-js-general-7  ➺      ⦁ كود صراحه** ⦁",' ‎ ')	  
+	  
+	  
  .setFooter('Discord.JPEI')
 
    message.channel.send({embed});
@@ -478,10 +566,53 @@ https://hastebin.com/etugawomeh.coffeescript
 });
 
 
+                client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-js-general-6") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
 
 
+ message.author.sendMessage(`
+ 
+ ❖ **كود كت تويت**
+ https://pastebin.com/fak2SQsm
+`);
+
+    }
+});
   
   
+  
+  
+                    client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-js-general-7") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **كود صراحه **
+ https://pastebin.com/NC32yt0v
+`);
+
+    }
+});
+  
+
+
+
+
+
+
+
+
   
   
   
@@ -1142,22 +1273,185 @@ message.author.sendEmbed(embed);
 });
 
 
-  client.on('message', message => {
-if (message.content === prefix + 'help-py') {
-        let embed = new Discord.RichEmbed()
-.setThumbnail("https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/world-circle-blue-128.png")    
-.setColor('RANDOM')
-.setDescription('**
- **
-╔[❖════════════❖]╗
-                    تحت الصيانه
-╚[❖════════════❖]╝
 
-**')
-message.author.sendEmbed(embed);
- 
-}
+       client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content  === prefix + "help-py") {
+          const embed = new Discord.RichEmbed()
+   .addField("❖ #help-py-source ➾  ⦁",' ‎ ')
+
+   .setColor('RANDOM')
+  .setTimestamp()
+
+ .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+  .addField("❧  **#help-py-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
+   .addField("❧  **#help-py-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
+     .addField("❧  **سيتم اضافة المزيد ان شاء الله*** ⦁",' ‎ ')
+	  
+	  
+ .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
 });
+  
+
+       client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content  === prefix + "#help-py-source") {
+          const embed = new Discord.RichEmbed()
+   .addField("❖ #help-py-source ➾  ⦁",' ‎ ')
+
+   .setColor('RANDOM')
+  .setTimestamp()
+
+ .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+  .addField("❧  **#help-py-source-1    ➺      ⦁   السورس الأساسي + البيرفكس** ⦁",' ‎ ')
+   .addField("❧  **#help-py-source-2     ➺      ⦁ السورس الاساسي من غير بير فكس** ⦁",' ‎ ')
+
+	  
+	  
+ .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
+});
+
+
+                              client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "#help-py-source-1") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **السور الاساسي مع البيرفكس**
+ https://pastebin.com/3EnXmuik
+`);
+
+    }
+});
+                              client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "#help-py-source-2") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **السورس الاساسي من غير بيرفكس**
+ https://pastebin.com/tG8yr5fL
+`);
+
+    }
+});
+
+
+
+
+       client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content  === prefix + "#help-py-admin") {
+          const embed = new Discord.RichEmbed()
+   .addField("❖ #help-py-source ➾  ⦁",' ‎ ')
+
+   .setColor('RANDOM')
+  .setTimestamp()
+
+ .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+  .addField("❧  **#help-py-admin-1    ➺      ⦁   كود اذا دخل البوت لسيرفر يعطيك معلومات عنه + امبد للبايثونوبس** ⦁",' ‎ ')
+   .addField("❧  **#help-py-admin-2     ➺      ⦁ كود يغيرلك النك نيم حقك فالسيرفر** ⦁",' ‎ ')
+   .addField("❧  **#help-py-admin-3     ➺      ⦁ كود يجيبلك الأيموجيز حقت السيرفر** ⦁",' ‎ ')
+	  
+	  
+ .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
+});
+
+
+
+
+
+                              client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "#help-py-admin-1") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **كود اذا دخل البوت لسيرفر يعطيك معلومات عنه + امبد للبايثونوبس**
+ https://pastebin.com/mPzgeBt6
+`);
+
+    }
+});
+                              client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "#help-py-admin-2") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **كود يغيرلك النك نيم حقك فالسيرفر**
+ https://pastebin.com/Sb67xRLc
+`);
+
+    }
+});
+                              client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "#help-py-admin-3") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **كود يجيبلك الأيموجيز حقت السيرفر**
+ https://pastebin.com/LarMXgLH
+`);
+
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
 
 
   client.on('message', message => {
