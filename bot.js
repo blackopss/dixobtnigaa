@@ -610,7 +610,7 @@ client.on('message', message => {
     var prefix = "^"
       if (message.content.startsWith(prefix + 'js')) {
         let code = message.content.split(" ").slice(2).join(" ")
-        let supportrole = message.guild.member(message.author).roles.find('name', 'Support', '+Support');
+        let supportrole = message.guild.member(message.author).roles.find('name', 'SUPPORT-PLUS', 'SUPPORT');
         if(!supportrole) return message.reply('ما عندك الرتبة المطلوبة')
         if(!code) return message.channel.send(`اكتب الوصف`)
         let applychannel = message.guild.channels.find(`name`,'codes-js')
