@@ -606,9 +606,7 @@ https://pastebin.com/hP9VQpFR
 });
   
 
-
-
-bot.on('message', message => {
+client.on('message', message => {
     var prefix = "^"
       if (message.content.startsWith(prefix + 'js')) {
         let code = message.content.split(" ").slice(2).join(" ")
