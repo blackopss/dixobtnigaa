@@ -1462,7 +1462,217 @@ if (message.content === prefix + 'help-io') {
 });
 
 
+client.on('message', message => {
+    if(message.content.startsWith(prefix + "share")) {
+       
+        let rank = message.guild.member(message.author).roles.find('name', '⇒ Support');
+        if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت  لأستخدام هذا الأمر.**');
+       
+        let embed = new Discord.RichEmbed()
+        .setColor('RANDOM')
+        .addField('     **=-=-:: [ share system ] ::-=-=** ' ,'╔[❖═════════════════════❖]╗')
+        .addField('**- A لنشر الأكواد بلغة الجافا سكربت**' ,'**=-=-=-=-=-=-=-=-=-=-=**')
+        .addField('**- B لنشر الأكواد بلغة البايثون**' ,'**=-=-=-=-=-=-=-=-=-=-=**')
+        .addField('**- C لنشر الأكواد بلغة الآي أو **' ,'**=-=-=-=-=-=-=-=-=-=-=**')
+        .addField('**- D لنشر الأكواد بلغة الإرس **' ,'**=-=-=-=-=-=-=-=-=-=-=**')
+        .addField('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=' ,'╚[❖═════════════════════❖]╝')
+        .setFooter(`Alpha codes`)
+        .setTimestamp()
+        message.channel.sendEmbed(embed).then(msg => {
+   
+            msg.react('🇦').then( r => {
+                msg.react('🇧')
+                msg.react('🇨')
+                msg.react('🇩')
+ 
+ 
+            let sharejsFilter = (reaction, user) => reaction.emoji.name === '🇦' && user.id === message.author.id;
+            let sharepyFilter = (reaction, user) => reaction.emoji.name === '🇧' && user.id === message.author.id;
+            let shareioFilter = (reaction, user) => reaction.emoji.name === '🇨' && user.id === message.author.id;
+            let shareerisFilter = (reaction, user) => reaction.emoji.name === '🇩' && user.id === message.author.id;
+   
+   
+            let sharejs = msg.createReactionCollector(sharejsFilter, { time: 20000});
+            let sharepy = msg.createReactionCollector(sharepyFilter, { time: 20000});
+            let shareio = msg.createReactionCollector(shareioFilter, { time: 20000});
+            let shareeris = msg.createReactionCollector(shareerisFilter, { time: 20000});
+       
+       
+       
+        sharejs.on('collect', r => {
+            msg.delete()
+      let filter = m => m.author.id === message.author.id;
+      let thisMessage;
+      let thisFalse;
+    let jscodes = message.guild.channels.find(`name`, "✻-codes_js");
+    if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
+    message.channel.send('📝 **| من فضلك اكتب الكود الأن... ✏ **').then(msg => {
+ 
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+      .then(collected => {
+        collected.first().delete();
+        thisMessage = collected.first().content;
+        boi = collected.first().content;
+        let boi2;
+     msg.edit('📜 **| من فضلك اكتب وصف الكود الأن... ✏ **').then(msg => {
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+        .then(collected => {
+        collected.first().delete();
+        boi = collected.first().content;
+        let boi2;
+    msg.edit('🤵 **| من فضلك اكتب من صنع هذا الكود الأن... ✏ **').then(msg => {
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+                .then(collected => {
+                  collected.first().delete();
+                boi2 = collected.first().content;
+                msg.delete()
+ 
+ message.channel.send('**| يرجى الإنتظار بضع ثواني... ✏**').then(b => {
+        setTimeout(() => {
+  b.edit(`**:dove:| Done :white_check_mark:, تم بنجاح نشر كودك في روم الاكواد**`)
+        },5000);
+var jscodes = message.guild.channels.find('name', '✻-codes_js')
+if(!jscodes) return;
+if(jscodes) {
+jscodes.send(`@everyone | @here
+<:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579>
+**AlphaCodes© <:js:487059664190701579>**
+\`\`\`js
+${thisMessage}\`\`\`
+<:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579>
 
+**وصف الكود**: ${boi}
+**تم النشر بواسطة**: ${message.author}
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+`)
+}        
+})
+})
+})
+})
+})
+})
+})
+ 
+})
+ 
+ 
+          shareeris.on('collect', r => {
+              msg.delete()
+      let filter = m => m.author.id === message.author.id;
+      let thisMessage;
+      let thisFalse;
+    var eriscodes = message.guild.channels.find(`name`, "✻-codes_eris");
+    if(!eriscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
+    message.channel.send('📝 **| من فضلك اكتب الكود الأن... ✏ **').then(msg => {
+ 
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+      .then(collected => {
+        collected.first().delete();
+        thisMessage = collected.first().content;
+        boi = collected.first().content;
+        let boi2;
+     msg.edit('📜 **| من فضلك اكتب وصف الكود الأن... ✏ **').then(msg => {
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+        .then(collected => {
+        collected.first().delete();
+        boi = collected.first().content;
+        let boi2;
+    msg.edit('🤵 **| من فضلك اكتب من صنع هذا الكود الأن... ✏ **').then(msg => {
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+                .then(collected => {
+                  collected.first().delete();
+                boi2 = collected.first().content;
+                msg.delete()
+ 
+ message.channel.send('**| يرجى الإنتظار بضع ثواني... ✏**').then(b => {
+        setTimeout(() => {
+  b.edit(`**:dove:| Done :white_check_mark:, تم بنجاح نشر كودك في روم الاكواد**`)
+        },5000);
+var eriscodes = message.guild.channels.find('name', '✻-codes_eris')
+if(!eriscodes) return;
+if(eriscodes) {
+eriscodes.send(`@everyone | @here
+**AlphaCodes© **
+<:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579>
+
+\`\`\`js
+${thisMessage}\`\`\`
+<:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579>
+
+**وصف الكود**: ${boi}
+**تم النشر بواسطة**: ${message.author}
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+`)
+}        
+})
+})
+})
+})
+})
+})
+})
+ 
+})
+ 
+ 
+         shareio.on('collect', r => {
+             msg.delete()
+      let filter = m => m.author.id === message.author.id;
+      let thisMessage;
+      let thisFalse;
+    var iocodes = message.guild.channels.find(`name`, "✻-codes_io");
+    if(!iocodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
+    message.channel.send('📝 **| من فضلك اكتب الكود الأن... ✏ **').then(msg => {
+ 
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+      .then(collected => {
+        collected.first().delete();
+        thisMessage = collected.first().content;
+        boi = collected.first().content;
+        let boi2;
+     msg.edit('📜 **| من فضلك اكتب وصف الكود الأن... ✏ **').then(msg => {
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+        .then(collected => {
+        collected.first().delete();
+        boi = collected.first().content;
+        let boi2;
+    msg.edit('🤵 **| من فضلك اكتب من صنع هذا الكود الأن... ✏ **').then(msg => {
+     message.channel.awaitMessages(filter, { max: 1, time: 90000, errors: ['time'] })
+                .then(collected => {
+                  collected.first().delete();
+                boi2 = collected.first().content;
+                msg.delete()
+ 
+ message.channel.send('**| يرجى الإنتظار بضع ثواني... ✏**').then(b => {
+        setTimeout(() => {
+  b.edit(`**:dove:| Done :white_check_mark:, تم بنجاح نشر كودك في روم الاكواد**`)
+        },5000);
+var iocodes = message.guild.channels.find('name', '✻-codes_io')
+if(!iocodes) return;
+if(iocodes) {
+iocodes.send(`@everyone | @here
+**AlphaCodes©**
+<:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579>
+
+\`\`\`js
+${thisMessage}\`\`\`
+<:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579><:js:487059664190701579>
+
+**وصف الكود**: ${boi}
+**تم النشر بواسطة**: ${message.author}
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+`)
+}        
+})
+})
+})
+})
+})
+})
+})
+ 
+})
 
 
 
